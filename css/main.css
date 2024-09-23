@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 :root {
@@ -43,4 +44,7 @@ header .header-icons-container .icons{
     align-items: center;
     justify-content: space-between;
     justify-self: end;
+}
+header .icons span {
+    color: white;
 }
