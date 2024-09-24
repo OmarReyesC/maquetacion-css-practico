@@ -16,7 +16,7 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    
+    font-family: "Roboto Mono", monospace;
 }
 a {
     text-decoration: none;
@@ -67,4 +67,40 @@ nav .profile-link a {
     font-size: 1.6rem;
     color: black;
     border-bottom: .1rem black solid;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('https://github.com/degranda/Platzi-blog/blob/master/Clase%2010%20(index%20img%20background)/assets/img/Cover.png?raw=true');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 35rem;
+    margin-top: 8rem;
+}
+.home-main-text {
+    font-family: "Roboto Mono", monospace;
+    font-size: 3rem;
+    font-weight:700;
+    letter-spacing: 1rem;
+    color: white;
+    text-align: center;
+}
+.home-main-button {
+    width: 11rem;
+    height: 5rem;
+    background-color: var(--primary-green);
+    display: grid;
+    place-items: center;
+}
+.home-main-button a {
+    font-weight: 700;
+    font-size: 1.8rem;
 }
