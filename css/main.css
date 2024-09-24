@@ -48,3 +48,23 @@ header .header-icons-container .icons{
 header .icons span {
     color: white;
 }
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 9rem;
+    padding: 0 5rem;
+}
+nav .nav-logo-container img{
+    width: 22rem;
+    margin-top: 1rem;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+nav .profile-link a {
+    font-size: 1.6rem;
+    color: black;
+    border-bottom: .1rem black solid;
+}
