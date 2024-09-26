@@ -6,6 +6,7 @@
 }
 :root {
     --primary-green: #47cfac;
+    --background-gray: #e6e9ed;
 }
 html {
     font-size: 62.5%;
@@ -103,4 +104,33 @@ nav .profile-link a {
 .home-main-button a {
     font-weight: 700;
     font-size: 1.8rem;
+}
+
+/* Blogs page styles start */
+
+.blogs-body{
+    position:initial;
+}
+.hero-section {
+    background-color: var(--background-gray);
+    font-size: 1.6rem;
+}
+.hero-section__start {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.hero-section__end {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.hero-section__end h3 {
+    font-size: 2rem;
+}
+.read-blog-button {
+    font-size: 1.2rem;
+    padding: .8rem;
+    border: solid .1rem var(--primary-green);
+    width: fit-content;
 }
