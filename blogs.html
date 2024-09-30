@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>El blog chido/ Blogs</title>
 </head>
-<body class="blogs-body">
+<body>
     <header>
         <section class="header-icons-container">
             <div class="icons">
@@ -30,25 +30,25 @@
             </section>
         </nav>
     </header>
-    <main>
-        <section class="hero-section">
-            <div class="hero-section__start">
+    <main class="blogs-main">
+        <section class="blogs-news-container">
+            <div class="blogs-main-new">
                 <h3>Noticias</h2>
-                <figure>
-                    <img src="https://github.com/degranda/Platzi-blog/blob/master/Clase%2025%20(media%20queries)/assets/img/main-news-img.png?raw=true" class="hero-section__start-picture" alt="Vintage electronic devices">
+                <figure class="blogs-news-img-container">
+                    <!-- <img src="https://github.com/degranda/Platzi-blog/blob/master/Clase%2025%20(media%20queries)/assets/img/main-news-img.png?raw=true" class="hero-section__start-picture" alt="Vintage electronic devices"> -->
                 </figure>
-            </div>
-            <div class="hero-section__end">
-                <h3>Título del Blogpost</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, placeat in maxime voluptas rerum ea eius maiores reprehenderit laborum vitae voluptatum molestias dicta vero, itaque quo veritatis unde et qui.
-                </p>
-                <a class="read-blog-button" >Leer más</a>
+                <div class="blogs-news-info-container">
+                    <h3>Título del Blogpost</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, placeat in maxime voluptas rerum ea eius maiores reprehenderit laborum vitae voluptatum molestias dicta vero, itaque quo veritatis unde et qui.
+                    </p>
+                    <a class="read-blog-button" >Leer más</a>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="blogs-posts-container">
             <div>
                 <h3>Últimos blogposts</h3>
-                <article>
+                <article class="post-container">
                     <img src="" alt="">
                     <p>Título del blogpost</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, placeat in maxime voluptas rerum ea eius maiores reprehenderit laborum vitae voluptatum molestias dicta vero, itaque quo veritatis unde et qui.</p>
@@ -57,9 +57,9 @@
 
             </div>
         </section>
-        <footer>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </footer>
     </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
 </body>
 </html>

@@ -108,29 +108,27 @@ nav .profile-link a {
 
 /* Blogs page styles start */
 
-.blogs-body{
-    position:initial;
+.blogs-main {
+    display: grid;
 }
-.hero-section {
+.blogs-news-container {
     background-color: var(--background-gray);
-    font-size: 1.6rem;
+    padding: 0 5rem 4rem;
 }
-.hero-section__start {
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
 }
-.hero-section__end {
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
+.blogs-news-img-container {
+    grid-column: 1;
 }
-.hero-section__end h3 {
-    font-size: 2rem;
+.blogs-news-img-container img {
+    
 }
-.read-blog-button {
-    font-size: 1.2rem;
-    padding: .8rem;
-    border: solid .1rem var(--primary-green);
-    width: fit-content;
+.blogs-news-info-container {
+    grid-column: 2;
+}
+.blogs-news-info-container p{
+    margin-bottom: 3.5rem;    
 }
