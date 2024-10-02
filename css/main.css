@@ -26,6 +26,12 @@ a {
     right: 0;
     left: 0;
 }
+.grid-container{
+    max-width: 98rem;
+    margin: auto;
+}
+
+
 header {
     width: 100%;
     height: 14rem;
@@ -169,4 +175,72 @@ footer {
 }
 footer p {
     margin-top: 3rem;
+}
+
+.blogpost-img-container {
+    padding: 0 5rem 4rem;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-main-container {
+    padding: 0 5rem 4rem;
+}
+.blogpost-main-container h3 {
+    border-bottom: .1rem solid var(--background-gray);
+    padding-bottom: 2rem;
+}
+.blogpost-main-container article h1 {
+    font-size: 3.5rem;
+}
+.contact-main-container {
+    width: 100%;
+    min-height: 25rem;
+    background-color: var(--background-gray);
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container div a {
+    border-bottom: .1rem solid black;
+    padding-bottom: .5rem;
+}
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 8.5rem;
+}
+.contact-main-container img {
+    width: 10rem;
+}
+
+.profile-main-container {
+    padding: 7rem 4rem;
+    background-color: var(--background-gray);
+    margin-bottom: 5rem;
+}
+.profile-main-container img {
+    width: 32rem;
+    margin-right: 3rem;
+}
+.profile-main-container .profile-container {
+    display: flex;
+}
+.profile-main-projects {
+    padding: 0 5rem 4rem;
+}
+.profile-main-projects h3 {
+    border-bottom: .1rem solid var(--background-gray);
+    padding-bottom: 3.5rem;
+    text-align: center;
+}
+.projects-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.project-container {
+    padding: 0 .5rem;
 }
